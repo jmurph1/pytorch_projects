@@ -1,3 +1,9 @@
+"""
+PyTorch Custom Operator for BitsAndBytes 4-bit matrix multiplication kernel compatibility with torch.compile (i.e. so that it compiles
+without graph breaks). Monkey patches that demonstrate the integration are at the bottom.
+"""
+
+
 import torch
 from torch import Tensor
 from typing import Optional, Tuple, List, Dict, Any
